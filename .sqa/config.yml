@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster git:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-buff-akita.sh
-        container: qc.acc_muggy-amethyst-foxhound
+        - /usr/bin/env sh .sqa/script.flimsy-scarlet-bobcat.sh
+        container: qc.acc_boozy-sapphire-insect
   QC.Doc:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-green-toad.sh
-        container: qc.doc_nippy-ivory-hippopotamus
+        - /usr/bin/env sh .sqa/script.clammy-rose-horse.sh
+        container: qc.doc_stinky-black-kudu
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster git:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-white-uguisu.sh
-        container: qc.doc_goopy-asparagus-harrier
+        - /usr/bin/env sh .sqa/script.trippy-red-clam.sh
+        container: qc.doc_breezy-lavender-rat
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-chestnut-cat.sh
-        container: qc.doc_muggy-amaranth-chimpanzee
+        - /usr/bin/env sh .sqa/script.bluesy-sepia-uguisu.sh
+        container: qc.doc_thirsty-asparagus-coyote
   QC.Lic:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-seashell-burmese.sh
-        container: qc.lic_whiny-smalt-antelope
+        - /usr/bin/env sh .sqa/script.trippy-violet-audemer.sh
+        container: qc.lic_skanky-crimson-macaw
   QC.Sec:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-teal-oyster.sh
-        container: qc.sec_crappy-dandelion-tapir
+        - /usr/bin/env sh .sqa/script.hazy-green-quetzal.sh
+        container: qc.sec_wiggy-corn-hedgehog
   QC.Sty:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-periwinkle-tuatara.sh
-        container: qc.sty_crappy-amethyst-duck
+        - /usr/bin/env sh .sqa/script.bluesy-beige-caracal.sh
+        container: qc.sty_gummy-rose-hyena
   QC.Uni:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-yellow-bobcat.sh
-        container: qc.uni_woolly-emerald-donkey
+        - /usr/bin/env sh .sqa/script.breezy-yellow-javanese.sh
+        container: qc.uni_squeaky-violet-chinook
   QC.Ver:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_forecaster get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-ultramarine-snake.sh
-        container: qc.ver_hazy-zucchini-bracke
+        - /usr/bin/env sh .sqa/script.dorky-buff-fly.sh
+        container: qc.ver_leaky-apricot-dachshund
 timeout: 5400
